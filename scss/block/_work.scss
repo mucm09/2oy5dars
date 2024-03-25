@@ -1,0 +1,40 @@
+.work{
+max-width: 1220px ;
+border-radius: 20px;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+align-items:center;
+}
+
+.work__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px; 
+}
+.work__item{
+  max-width: 215px;
+}
+.work__img{
+  max-width: 92px;
+  margin-bottom: 20px;
+}
+.work__title{
+  margin-bottom: 16px;
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 20px;
+font-weight: 600;
+}
+.work__text{
+margin-bottom: 10px;
+color: rgb(107, 107, 108);
+font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+@media screen  and (max-width:1071px) {
+ .
+}
