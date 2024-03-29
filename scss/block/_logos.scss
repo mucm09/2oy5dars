@@ -1,0 +1,42 @@
+.logos__subtitle{
+color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 48px;
+font-weight: 600;
+line-height: 125%;
+letter-spacing: 0%;
+text-align: left;
+}
+.logos__list{
+max-width: 1220px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logos__item{
+max-width: 184px;
+text-align: center;
+}
+.logos__img{
+  max-width: 100px;
+  margin-bottom: 30px;
+}
+.logos__title{
+ color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 20px;
+font-weight: 600;
+line-height: 135%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 15px;
+}
+.logos__text{
+color: rgb(107, 107, 108);
+font-family: PT Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+}
