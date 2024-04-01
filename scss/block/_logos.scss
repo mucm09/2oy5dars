@@ -8,18 +8,25 @@ letter-spacing: 0%;
 text-align: left;
 }
 .logos__list{
-max-width: 1220px;
+max-width: 750px;
 display: flex;
 align-items: center;
 justify-content: space-between;
+text-align: center;
+flex-wrap: wrap;
+margin: 0 auto;
 }
 .logos__item{
 max-width: 184px;
 text-align: center;
+height: 184px;
+margin-bottom: 20px;
+
 }
 .logos__img{
-  max-width: 100px;
+  max-width: 80px;
   margin-bottom: 30px;
+  height: 80px;
 }
 .logos__title{
  color: rgb(54, 55, 56);
