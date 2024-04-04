@@ -1,5 +1,73 @@
+.adress{
+  max-width: 780px;
+}
+.adress__list{
+  max-width: 780px;
+  background-color: rgb(249, 249, 251);
+}
+
+.adress__title{
+  color: rgb(107, 107, 108);
+font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+margin-top: 10px;
+margin-right: 30px;
+margin-left: 10px;
+}
+.adress__text{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 16px;
+font-weight: 600;
+margin-top: 10px;
+}
 .adress__item{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
+@media  screen and (max-width:1060px) {
+  .adress{
+    max-width: 760px;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .adress{
+    max-width: 740px ;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .adress{
+    max-width:720px ;
+  }
+}
+@media screen and (max-width:944px){
+  .adress{
+    max-width: 700px;
+  }
+  .adress__list{
+    margin-left: 15px;
+  }
+  .adress__title{
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .adress__text{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:764px) {
+  .adress{
+    max-width: 680px;
+    margin-left: 20px;
+  }
+  }
+  @media screen and (max-width:544px) {
+    .adress{
+      margin: 0px;
+    }
+    .adress__list{
+      margin: 0px;
+    }
+  }

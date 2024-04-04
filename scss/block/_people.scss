@@ -64,3 +64,20 @@ margin-bottom: 30px;
 .pictures{
 margin-right: 20px;
 }
+
+@media screen and (max-width:1031px){
+  .people{
+    margin-bottom: 750px;
+  }
+}
+@media screen and (max-width:544px) {
+  .people__subtitle{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width:463px) {
+  .people__subtitle{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
